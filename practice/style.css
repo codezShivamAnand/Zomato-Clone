@@ -1,0 +1,212 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Okra, Helvetica, sans-serif;
+}
+/* HEADER---------------------------------------------- */
+header{
+    background-color: rgb(246, 24, 24);
+    position: fixed;
+    right:10px;
+    left:10px;
+    z-index:1;
+}
+.top-header{
+    background-color: aqua;
+    position:relative;
+}
+.logo-search_bar{
+    background-color: rgb(58, 35, 172);
+    position:relative;
+    /* display: inline-block; */
+}
+
+.x-enter{
+    display: inline;
+    position: relative;
+
+}
+ #zomato{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 10rem;
+    display: inline;
+
+}
+
+.search-box{
+    font-size: 30px;
+    position:relative;
+    left:11rem;
+    display: inline;
+
+}
+#login{
+    font-size:15px;
+    padding:5px;
+    margin-top:10px;
+    position: absolute;
+    right:20rem;
+}
+#signup{
+    font-size:15px;
+    padding:5px;
+    margin-top:10px;
+    position: absolute;
+    right: 10rem;
+} 
+
+.second-header{
+    background-color: rgba(214, 214, 231, 0.5);
+    position:relative;
+    padding-top: 10px;
+    height: 90px;
+}
+.dining{
+    display: inline-block;
+    position: absolute;
+    left:15rem;
+}
+.delivery{
+    display: inline-block;
+    position: absolute;
+    left:33rem;
+}
+.nightlife{
+    display: inline-block;
+    position: absolute;
+    left:50rem;
+}
+.thumbnail{
+    height:30px;
+    width: auto;
+    display:inline-block;
+    border:20px rgba(233, 227, 227, 0.568) solid;
+    border-radius: 35px;
+}
+.thumbnail-desc{
+    display: inline-block;
+    font-size:25px;
+    height:10px;
+    color: rgb(79, 93, 106);
+    position: relative;
+    bottom:22px;
+    left:8px;
+}
+/* ----------------------------------- */
+main{
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.card{
+    background-color:whitesmoke;
+    /* width: 45vw;
+    height:45vh; */
+    display: inline-block;
+    margin-left:30px;
+    margin-top:10px;
+    border:5px whitesmoke solid;
+    border-radius:20px;
+    cursor:pointer;
+
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+    /* on hovering over card the effect should show up  */
+}
+.resturant-pic{
+    padding: 5px;
+    display:inline-block;
+}
+.snapshot{
+    width:20rem;
+    height:15rem;
+    margin-top:5px;
+    border-radius: 15px;
+}
+/* lines */
+.resturant-info{
+    /* background-color: brown; */
+    margin-top:5px;
+    display: inline;  
+}
+.first-line{
+    /* background-color: aqua; */
+    position:relative;
+}
+.sec-line{
+    /* background-color: blueviolet; */
+    position:relative;
+    margin-top:5px;
+}
+.third-line{
+    /* background-color: rgb(3, 2, 2); */
+    position:relative;
+    margin-top:5px;
+}
+.fourth-line{
+    /* background-color: cornflowerblue; */
+    position:relative;
+    margin-top:5px;
+}
+
+/* lines ke ander me left and right box */
+
+.left-box,.right-box{
+    display:inline-block;
+}
+.left-box{
+    position:relative;
+    left:10px;
+}
+.right-box{
+    position:absolute;
+    right:10px;
+}
+
+/* left box and right box ke inside  */
+/*  1. FIRSTLINE ---------------------------- */
+#name{
+    font-family: arial;
+    font-size:20px;
+    font-weight: 500;
+}
+#rating{
+    font-size:15px;
+    border:2px blue solid;
+    border-radius:5px;
+    padding: 2px;
+}
+
+
+/* 2. SEC LINE KE ANDAR--------------------- */
+#description{
+    font-size:18px;
+    color:rgb(165, 168, 171);
+}
+#price{
+    font-size:18px;
+    color:rgb(165, 168, 171);
+}
+
+/* 3, THIRD LINE---------------- */
+#location{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size:17px;
+    color:rgba(163, 163, 164, 0.671);
+}
+/* 4.FOURTH LINE------------ */
+#status{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size:19px;
+    color:rgb(186, 75, 28)
+}
+#distance{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size:14px;
+}
